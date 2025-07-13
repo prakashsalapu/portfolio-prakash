@@ -56,12 +56,14 @@ const AboutStats = () => {
           transition={{ duration: 1, ease: "easeOut" }}
           className="md:w-1/2 w-full space-y-6 text-center md:text-left"
         >
-          <h1 className="text-3xl sm:text-4xl font-bold text-[#082c58] mb-6 sm:mb-10">
-            Hey, I’m{" "}
+          <h1 className="text-3xl sm:text-4xl font-bold text-[#082c58] mb-4 sm:mb-6 leading-tight">
+            Hey, I’m
+            <br />
             <span className="text-4xl sm:text-5xl bg-gradient-to-r from-[#4086f7] to-[#1316c2] text-transparent bg-clip-text">
-              Prakash
+              Bhanu Prakash Salapu
             </span>
           </h1>
+
 
           <p className="mb-6 text-gray-800 text-base sm:text-lg leading-relaxed">
             A digital creator and <strong>Thumbnail Designer</strong> helping
