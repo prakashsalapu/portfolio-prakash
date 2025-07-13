@@ -98,7 +98,7 @@ const HeroSection = () => {
               transition={{ delay: 1.2, duration: 1 }}
             >
            <p className="text-white text-sm sm:text-base">Scroll Down</p>
-           <div className="w-6 h-6 border-2 border-white rounded-full flex items-center justify-center text-white text-center text-xl">
+           <div className="w-5 h-5 border-2 border-white rounded-full flex items-center justify-center text-white text-center text-sm">
             ↓
           </div>
           </motion.div>
