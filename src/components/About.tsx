@@ -113,7 +113,7 @@ const AboutStats = () => {
           >
             <div className="text-center leading-tight">
               <p className="text-[8px] sm:text-[10px] text-blue-600">Year</p>
-              <p className="text-sm sm:text-lg font-bold text-blue-600">01</p>
+              <p className="text-sm sm:text-lg font-bold text-blue-600">01+</p>
               <p className="text-[8px] sm:text-[10px] text-blue-600">Experience</p>
             </div>
           </motion.div>
