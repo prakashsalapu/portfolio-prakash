@@ -44,9 +44,9 @@ const HeroSection = () => {
         </div>
 
         {/* Text Section */}
-       <div className="text-center flex flex-col items-center text-white max-w-3xl z-10 mt-2 sm:mt-16">
+       <div className="text-center flex flex-col items-center text-white max-w-4xl z-10 mt-2 pl-5 m-20  sm:mt-16 text-4xl" >
           {/* Headline 1 */}
-          <div className="flex flex-wrap justify-center text-2xl sm:text-4xl font-extrabold mb-1 sm:mb-4 leading-snug whitespace-normal px-2">
+          <div className="flex flex-wrap justify-center text-2xl sm:text-4xl font-bold sm:font-bold mb-1 sm:mb-4 leading-snug whitespace-normal px-2">
             {words('Thumbnail Strategy').map((word, i) => (
               <motion.span
                 key={i}
@@ -62,7 +62,7 @@ const HeroSection = () => {
           </div>
 
           {/* Headline 2 */}
-          <div className="flex flex-wrap justify-center text-xl sm:text-4xl font-extrabold mb-2 sm:mb-4 leading-tight whitespace-nowrap">
+          <div className="flex flex-wrap justify-center text-xl sm:text-4xl font-bold sm:font-bold mb-1 sm:mb-4 leading-tight whitespace-nowrap">
             {words('that get').map((word, i) => (
               <motion.span
                 key={i}
@@ -78,7 +78,7 @@ const HeroSection = () => {
           </div>
 
           {/* Headline 3 */}
-          <div className="text-2xl sm:text-5xl font-bold leading-tight mt-2 sm:mt-4 whitespace-nowrap">
+          <div className="text-2xl sm:text-4xl font-bold leading-tight mt-1 sm:mt-4 whitespace-nowrap">
             <motion.span
               className="bg-gradient-to-r from-[#00e0ff] via-[#14ffe9] to-[#2a9df4] bg-[length:300%_300%] bg-clip-text text-transparent animate-gradientMove"
               variants={wordVariants}
@@ -92,13 +92,13 @@ const HeroSection = () => {
 
           {/* Scroll Down */}
           <motion.div
-            className="mt-2 sm:mt-10 mb-4 sm:mb-0 flex items-center justify-center gap-3 animate-bounce"
+            className="mt-2 sm:mt-10 mb-0 sm:mb-0 flex items-center justify-center gap-3 animate-bounce"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 1.2, duration: 1 }}
             >
            <p className="text-white text-sm sm:text-base">Scroll Down</p>
-           <div className="w-6 h-6 border-2 border-white rounded-full flex items-center justify-center text-white">
+           <div className="w-6 h-6 border-2 border-white rounded-full flex items-center justify-center text-white text-center text-xl">
             ↓
           </div>
           </motion.div>
@@ -110,4 +110,3 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
-
