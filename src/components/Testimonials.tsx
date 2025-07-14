@@ -7,7 +7,6 @@ import bsdvp from './bsdvp.jpg';
 import askAbhi from './ask-abhi-now.jpg';
 import dokkulo from './dokkulo-reviews.jpg';
 import nithin from './nithin-kolluru.jpg';
-import karthifer from './karthifer.jpg';
 
 const testimonials = [
   {
@@ -45,17 +44,9 @@ const testimonials = [
     avatarImg: nithin,
     rating: 5,
   },
-  {
-    name: 'KARTHIFER',
-    role: 'Reaction & Roasting YouTuber',
-    content: 'Prakash nails the vibe every time! His bold and expressive thumbnails make my roast and reaction videos pop. Viewers click even before I speak!',
-    avatarImg: karthifer,
-    rating: 5,
-  },
-];
+  ];
 
-const extendedTestimonials = [...testimonials, ...testimonials];
-
+const extendedTestimonials = testimonials;
 const Testimonials = () => {
   const scrollRef = useRef<HTMLDivElement | null>(null);
   const [isHovered, setIsHovered] = useState(false);
